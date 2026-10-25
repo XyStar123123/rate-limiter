@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "command": "bash scripts/throttle.sh",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

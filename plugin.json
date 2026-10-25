@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "rate-limiter-plugin",
+  "version": "1.0.0",
+  "description": "Plugin untuk membatasi laju eksekusi tool"
+}
